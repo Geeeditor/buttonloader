@@ -22,6 +22,16 @@ add class for one of the desired effect to your button, along with a loader insi
   - The *ld-ball* and *ld-bounce* classes used here are from [loading.css](https://loading.io/animation/). You can use your own animation.
   - The class *ld* is required for loading buttons to identify the loader element.
 
+  - Additional information:
+    Loading.css is available for downloading in its Github Repo. Or, you can get it directly with following links:
+
+    loading.css
+    loading.min.css
+    You could also use loading.css directly via CDN like jsDelivr:
+    
+    https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.css
+    https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.min.css
+
 3. Trigger the loading animation by adding "running" class in the button:
 
     <div class="btn btn-primary ld-ext-right running">
